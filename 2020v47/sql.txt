@@ -1,0 +1,5 @@
+Det blir ingen kod denna veckan, men du får här lite länkar där du kan förbereda dig för att lära dig SQL
+
+https://sqlzoo.net/ är en webbsida där du enkelt kan testa olika SQL kommandon
+https://www.w3schools.com/sql/ är också en bra grund för att lära sig SQL
+

@@ -38,32 +38,13 @@
                 if (KeepAsking)
                 {
                     // Dela upp användarens kommaseparerade input
-                    var split = input.Split(',');
+                    var split = input.Trim().TrimEnd(',').Split(',');
                     // Om längden är mindre än 2 då har användaren inte angett rätt mängd data
-                    if (split.Length > 2)
+                    if (split.Length > 2)  // butik=1, Vara=2, Pris=3, Datum = 4
                     {
-                        // Hämta butikens namn från input
-                        var store = split[0].Trim();
-
-                        // Hämta varans namn från input
-                        var item = split[1].Trim();
-
-                        // Hämta varans pris från input och omvandla till double
-                        double.TryParse(split[2].Trim(), out double price);
-
-                        // Sätt standarddatum (idag)
-                        var date = DateTime.Now.ToString("yyyy-MM-dd");
-
-                        // Kolla om datum har angetts
-                        if (split.Length == 4)
-                        {
-                            // försök att omvandla datumet i textform till datum
-                            if (DateTime.TryParse(split[3], out DateTime newDate))
-                            {
-                                // omvandla datumet till föredragen format
-                                date = newDate.ToString("yyyy-MM-dd");
-                            }
-                        }
+                        string store, item, date;
+                        double price;
+                        CheckInput(split, out store, out item, out price, out date);
 
                         // Spara inköpet
                         DBHelper.InsertPurchase(store, item, price, date);
@@ -118,6 +99,40 @@
             }
             // Lägg till tomrad för att debuggerns meddelande inte ska förstöra den snygga outputen
             Console.WriteLine();
+        }
+
+        /// <summary>
+        /// Kollar så att input gått rätt till
+        /// </summary>
+        /// <param name="split">Splittad input array</param>
+        /// <param name="store">Butikens namn</param>
+        /// <param name="item">Varans namn</param>
+        /// <param name="price">Priset för varan</param>
+        /// <param name="date">Datum</param>
+        private static void CheckInput(string[] split, out string store, out string item, out double price, out string date)
+        {
+            // Hämta butikens namn från input
+            store = split[0].Trim();
+
+            // Hämta varans namn från input
+            item = split[1].Trim();
+
+            // Hämta varans pris från input och omvandla till double
+            double.TryParse(split[2].Trim(), out price);
+
+            // Sätt standarddatum (idag)
+            date = DateTime.Now.ToString("yyyy-MM-dd");
+
+            // Kolla om datum har angetts
+            if (split.Length == 4)
+            {
+                // försök att omvandla datumet i textform till datum
+                if (DateTime.TryParse(split[3], out DateTime newDate))
+                {
+                    // omvandla datumet till föredragen format
+                    date = newDate.ToString("yyyy-MM-dd");
+                }
+            }
         }
 
         /// <summary>

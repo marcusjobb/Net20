@@ -9,7 +9,6 @@
 
     public static class StoreHandler
     {
-
         /// <summary>
         /// Hämtar en Butiks ID, om butiken inte finns så skapas den
         /// </summary>

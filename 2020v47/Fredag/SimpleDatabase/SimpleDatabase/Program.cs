@@ -88,7 +88,6 @@
             {
                 // Om databasfilen inte finns, skapa en
                 SQLiteConnection.CreateFile(database);
-                System.Diagnostics.Debug.WriteLine("Skapade en databas");
 
                 // Skapa tabeller
                 ExecuteSQL(@"CREATE TABLE ""Personer"" (""ID"" INTEGER NOT NULL,""Namn"" TEXT,PRIMARY KEY(""ID""));");

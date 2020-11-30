@@ -51,16 +51,7 @@
                     }
                     else
                     {
-                        // Informera användaren att datan är felaktig
-                        Console.WriteLine("Du angav felaktig data");
-                        if (split.Length == 1)
-                        {
-                            Console.WriteLine("Vara och pris saknas");
-                        }
-                        else if (split.Length == 2)
-                        {
-                            Console.WriteLine("Pris saknas");
-                        }
+                        Felmeddelande(split);
                     }
                 }
                 // Forsätt så länge som användaren vill
@@ -99,6 +90,20 @@
             }
             // Lägg till tomrad för att debuggerns meddelande inte ska förstöra den snygga outputen
             Console.WriteLine();
+        }
+
+        private static void Felmeddelande(string[] split)
+        {
+            // Informera användaren att datan är felaktig
+            Console.WriteLine("Du angav felaktig data");
+            if (split.Length == 1)
+            {
+                Console.WriteLine("Vara och pris saknas");
+            }
+            else if (split.Length == 2)
+            {
+                Console.WriteLine("Pris saknas");
+            }
         }
 
         /// <summary>

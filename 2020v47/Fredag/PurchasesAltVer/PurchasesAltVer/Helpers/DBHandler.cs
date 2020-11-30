@@ -116,9 +116,5 @@
             return false;
         }
 
-        public static void SayHelloWorld()
-        {
-            System.Console.WriteLine("Hello World");
-        }
     }
 }

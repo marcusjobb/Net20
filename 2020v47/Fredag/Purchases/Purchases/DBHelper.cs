@@ -82,14 +82,14 @@
         /// <returns>Id till varan som skapades</returns>
         public static long InsertItem(string item)
         {
-            // Definiera SQL sträng
-            const string sql = "INSERT INTO Items (Name) VALUES(@name)";
-
             // Identifiera databasfilen
             using (var conn = new SQLiteConnection("data source=" + Settings.Database))
             {
                 // Öppna filen och låt databasmotorn använda den
                 conn.Open();
+
+                // Definiera SQL sträng
+                const string sql = "INSERT INTO Items (Name) VALUES(@name)";
 
                 //Hämta SQL kommando för att hantera SQL sträng och parametrar
                 SQLiteCommand cmd = new SQLiteCommand(sql, conn);
@@ -168,7 +168,7 @@
             var dt = DBHandler.GetDataTable(sql);
 
             // Kolla om DataTablen innehåller något
-            if (dt.Rows.Count > 0)
+            if (dt!=null && dt.Rows.Count > 0)
             {
                 // Returnera antal inköp
                 return (long)dt.Rows[0][0];

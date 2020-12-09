@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Recept.Ingredienser.Ägg" Collapsed="true">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\Ägg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recept.Ingredienser.Ingrediens" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAABAAAAAABEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\Ingrediens.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recept.Ingredienser.Vaniljsocker" Collapsed="true">
+    <Position X="11" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\Vaniljsocker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recept.Ingredienser.Vetemjöl" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\Vetemjöl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recept.Ingredienser.Smör">
+    <Position X="4.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAgAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\Smör.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="tillstånd" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Recept.Ingredienser.Strösocker" Collapsed="true">
+    <Position X="12.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\Strösocker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recept.Ingredienser.Kakao" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\Kakao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recept.Ingredienser.Florsocker" Collapsed="true">
+    <Position X="13.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\Florsocker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recept.Ingredienser.Vispgrädde" Collapsed="true">
+    <Position X="9.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\Vispgrädde.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recept.Ingredienser.Ingrediensröra" Collapsed="true">
+    <Position X="7.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\Ingrediensröra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recept.Ingredienser.Färdigkaka" Collapsed="true">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\Färdigkaka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recept.Ingredienser.Socker" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\Socker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recept.Ingredienser.KnäcktaÄgg" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\KnäcktaÄgg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recept.Ingredienser.KnäcktÄgg" Collapsed="true">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\KnäcktÄgg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recept.Ingredienser.GlutenfriMjöl" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\GlutenfriMjöl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Recept.Ingredienser.Smörtillstånd">
+    <Position X="2" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAABEAA=</HashCode>
+      <FileName>Ingredienser\Smörtillstånd.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Recept.Ingredienser.Ägg" Collapsed="true">
+    <Position X="7" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\Ägg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recept.Ingredienser.Ingrediens" Collapsed="true">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAABAAAAAABEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\Ingrediens.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recept.Ingredienser.KnäcktaÄgg" Collapsed="true">
+    <Position X="7" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\KnäcktaÄgg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recept.Ingredienser.KnäcktÄgg" Collapsed="true">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredienser\KnäcktÄgg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

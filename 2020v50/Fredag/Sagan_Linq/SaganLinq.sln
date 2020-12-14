@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaganLinq", "SaganLinq.csproj", "{7E96ACBF-C292-469F-B05C-EA9EB8732290}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E96ACBF-C292-469F-B05C-EA9EB8732290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E96ACBF-C292-469F-B05C-EA9EB8732290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E96ACBF-C292-469F-B05C-EA9EB8732290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E96ACBF-C292-469F-B05C-EA9EB8732290}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D3AF2D0-2524-47D3-B360-5E1E8BC3D241}
+	EndGlobalSection
+EndGlobal

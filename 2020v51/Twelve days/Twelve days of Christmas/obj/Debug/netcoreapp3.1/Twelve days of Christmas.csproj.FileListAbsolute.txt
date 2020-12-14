@@ -1,0 +1,13 @@
+D:\Dev\Codic\Net20 - Objektorienterad arkitektur\Kodexempel\Net20\2020v51\Twelve days\Twelve days of Christmas\bin\Debug\netcoreapp3.1\Twelve days of Christmas.exe
+D:\Dev\Codic\Net20 - Objektorienterad arkitektur\Kodexempel\Net20\2020v51\Twelve days\Twelve days of Christmas\bin\Debug\netcoreapp3.1\Twelve days of Christmas.deps.json
+D:\Dev\Codic\Net20 - Objektorienterad arkitektur\Kodexempel\Net20\2020v51\Twelve days\Twelve days of Christmas\bin\Debug\netcoreapp3.1\Twelve days of Christmas.runtimeconfig.json
+D:\Dev\Codic\Net20 - Objektorienterad arkitektur\Kodexempel\Net20\2020v51\Twelve days\Twelve days of Christmas\bin\Debug\netcoreapp3.1\Twelve days of Christmas.runtimeconfig.dev.json
+D:\Dev\Codic\Net20 - Objektorienterad arkitektur\Kodexempel\Net20\2020v51\Twelve days\Twelve days of Christmas\bin\Debug\netcoreapp3.1\Twelve days of Christmas.dll
+D:\Dev\Codic\Net20 - Objektorienterad arkitektur\Kodexempel\Net20\2020v51\Twelve days\Twelve days of Christmas\bin\Debug\netcoreapp3.1\Twelve days of Christmas.pdb
+D:\Dev\Codic\Net20 - Objektorienterad arkitektur\Kodexempel\Net20\2020v51\Twelve days\Twelve days of Christmas\obj\Debug\netcoreapp3.1\Twelve days of Christmas.csprojAssemblyReference.cache
+D:\Dev\Codic\Net20 - Objektorienterad arkitektur\Kodexempel\Net20\2020v51\Twelve days\Twelve days of Christmas\obj\Debug\netcoreapp3.1\Twelve days of Christmas.AssemblyInfoInputs.cache
+D:\Dev\Codic\Net20 - Objektorienterad arkitektur\Kodexempel\Net20\2020v51\Twelve days\Twelve days of Christmas\obj\Debug\netcoreapp3.1\Twelve days of Christmas.AssemblyInfo.cs
+D:\Dev\Codic\Net20 - Objektorienterad arkitektur\Kodexempel\Net20\2020v51\Twelve days\Twelve days of Christmas\obj\Debug\netcoreapp3.1\Twelve days of Christmas.csproj.CoreCompileInputs.cache
+D:\Dev\Codic\Net20 - Objektorienterad arkitektur\Kodexempel\Net20\2020v51\Twelve days\Twelve days of Christmas\obj\Debug\netcoreapp3.1\Twelve days of Christmas.dll
+D:\Dev\Codic\Net20 - Objektorienterad arkitektur\Kodexempel\Net20\2020v51\Twelve days\Twelve days of Christmas\obj\Debug\netcoreapp3.1\Twelve days of Christmas.pdb
+D:\Dev\Codic\Net20 - Objektorienterad arkitektur\Kodexempel\Net20\2020v51\Twelve days\Twelve days of Christmas\obj\Debug\netcoreapp3.1\Twelve days of Christmas.genruntimeconfig.cache

@@ -11,22 +11,16 @@
 
     internal static class Program
     {
-        private const string database = @".\MinDatabase.db";
+        private  static string DatabaseName = @".\DatabaseSaga.db";
         private static void Main()
         {
             // Steg 1 - Skapa databasen om den inte finns
             SkapaDatabas();
 
             // Steg 2 - Hämta data
-            const string sqlSaga =
-                "SELECT Personer.Namn,Händelser.händelse, Objekt.Text, Mottagare.Namn " +
-                "FROM Koppling " +
-                "JOIN Personer ON Koppling.Person1=Personer.ID " +
-                "JOIN Händelser on Koppling.Handling=Händelser.ID " +
-                "JOIN Objekt on Koppling.Objekt=Objekt.ID " +
-                "LEFT JOIN Personer as Mottagare on Koppling.Person2 = Mottagare.ID";
-
-            var data = GetDataTable(sqlSaga);
+            string sqlSaga;
+            DataTable data;
+            CreateMyLittleSaga(out sqlSaga, out data);
             PrintStory(data);
 
             Console.WriteLine("-----------------------------------------------------------");
@@ -34,23 +28,49 @@
             bool stopIt = false;
             while (!stopIt)
             {
-                Console.WriteLine("Ange ett namn");
-                var namn = Console.ReadLine();
-                stopIt = namn?.Length == 0;
+                string namn;
+                stopIt = UserInput(out namn);
                 if (!stopIt)
                 {
-                    var sql = "Select ID from Personer WHERE Namn LIKE @namn";
-                    // Kollar om namnet eller liknande finns i databasen
-                    data = GetDataTable(sql, "@namn", "%" + namn + "%");
-                    if (data.Rows.Count > 0)
-                    {
-                        // Hämta givna namets sagodel
-                        sql = sqlSaga + " WHERE Koppling.Person1=" + data.Rows[0]["ID"].ToString();
-                        data = GetDataTable(sql);
-                        PrintStory(data);
-                    }
+                    data = DisplayFilteredSaga(sqlSaga, namn);
                 }
+                Console.WriteLine("--");
             }
+        }
+
+        private static bool UserInput( out string namn)
+        {
+            Console.WriteLine("Ange ett namn : ");
+            namn = Console.ReadLine();
+            return  namn?.Length == 0;
+        }
+
+        private static DataTable DisplayFilteredSaga(string sqlSaga, string namn)
+        {
+            DataTable data;
+            var sql = "Select ID from Personer WHERE Namn LIKE @namn";
+            // Kollar om namnet eller liknande finns i databasen
+            data = GetDataTable(sql, "@namn", "%" + namn + "%");
+            if (data.Rows.Count > 0)
+            {
+                // Hämta givna namets sagodel
+                sql = sqlSaga + " WHERE Koppling.Person1=" + data.Rows[0]["ID"].ToString();
+                data = GetDataTable(sql);
+                PrintStory(data);
+            }
+
+            return data;
+        }
+
+        private static void CreateMyLittleSaga(out string sqlSaga, out DataTable data)
+        {
+            sqlSaga = "SELECT Personer.Namn,Händelser.händelse, Objekt.Text, Mottagare.Namn " +
+                "FROM Koppling " +
+                "JOIN Personer ON Koppling.Person1=Personer.ID " +
+                "JOIN Händelser on Koppling.Handling=Händelser.ID " +
+                "JOIN Objekt on Koppling.Objekt=Objekt.ID " +
+                "LEFT JOIN Personer as Mottagare on Koppling.Person2 = Mottagare.ID";
+            data = GetDataTable(sqlSaga);
         }
 
         private static void PrintStory(DataTable data)
@@ -81,13 +101,13 @@
         private static void SkapaDatabas()
         {
             // Hämta filinfo
-            FileInfo fi = new FileInfo(database);
+            FileInfo fi = new FileInfo(DatabaseName);
 
             // Kontrollera att databasfilen finns eller om den är tom
             if (!fi.Exists || fi.Length == 0)
             {
                 // Om databasfilen inte finns, skapa en
-                SQLiteConnection.CreateFile(database);
+                SQLiteConnection.CreateFile(DatabaseName);
 
                 // Skapa tabeller
                 ExecuteSQL(@"CREATE TABLE ""Personer"" (""ID"" INTEGER NOT NULL,""Namn"" TEXT,PRIMARY KEY(""ID""));");
@@ -136,18 +156,20 @@
         public static void ExecuteSQL(string sql, params string[] values)
         {
             // Skapa en koppling till databasen
-            using (var sqlite2 = new SQLiteConnection("data source=" + database))
+            using (var sqlite2 = new SQLiteConnection("data source=" + DatabaseName))
             {
                 // Öppna kommunikationen
                 sqlite2.Open();
                 // Skapa ett SQL-kommando
-                SQLiteCommand cmd = new SQLiteCommand(sql, sqlite2);
-                // Kör SQL-koden
-                for (int i = 0; i < values.Length; i += 2)
+                using (var cmd = new SQLiteCommand(sql, sqlite2))
                 {
-                    cmd.Parameters.AddWithValue(values[i], values[i + 1]);
+                    // Kör SQL-koden
+                    for (int i = 0; i < values.Length; i += 2)
+                    {
+                        cmd.Parameters.AddWithValue(values[i], values[i + 1]);
+                    }
+                    cmd.ExecuteNonQuery();
                 }
-                cmd.ExecuteNonQuery();
                 // Lägg till standarddata i databasen
             }
         }
@@ -159,18 +181,18 @@
         /// <param name="values">Values separated by comma e.g  ["@name", "My name"] </param>
         public static DataTable GetDataTable(string sql, params string[] values)
         {
-            DataTable dt = new DataTable();
-            using (SQLiteConnection conn = new SQLiteConnection("data source=" + database))
+            var dt = new DataTable();
+            using (var conn = new SQLiteConnection("data source=" + DatabaseName))
             {
                 conn.Open();
-                SQLiteCommand cmd = new SQLiteCommand(sql, conn);
+                var cmd = new SQLiteCommand(sql, conn);
 
                 for (int i = 0; i < values.Length; i += 2)
                 {
                     cmd.Parameters.AddWithValue(values[i], values[i + 1]);
                 }
 
-                SQLiteDataAdapter da = new SQLiteDataAdapter(cmd);
+                var da = new SQLiteDataAdapter(cmd);
                 da.Fill(dt);
             }
             return dt;

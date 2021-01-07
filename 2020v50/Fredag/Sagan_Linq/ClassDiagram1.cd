@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SaganLinq.Database.Sagan">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAQAAAAAAAAAACAAAMAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Database\Sagan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaganLinq.Models.Händelse">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Händelse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaganLinq.Models.Koppling">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAhAAAAAAAAAAABIAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Koppling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaganLinq.Models.Person">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaganLinq.Models.Sak">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Sak.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaganLinq.ViewModels.QueryResult">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAIAEAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>ViewModels\QueryResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaganLinq.Demo">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Demo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Person" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

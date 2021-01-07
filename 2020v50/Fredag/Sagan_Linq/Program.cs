@@ -22,7 +22,7 @@
                            join sak in sagan.Saker on koppling.Sak equals sak.ID
                            join personB in sagan.Personer on koppling.Person2 equals personB.ID into checkNull
                            from mottagare in checkNull.DefaultIfEmpty()
-                           select new
+                           select new ViewModels.QueryResult
                            {
                                // Skapa objekt med önskad information
                                Person1 = personA.Namn,

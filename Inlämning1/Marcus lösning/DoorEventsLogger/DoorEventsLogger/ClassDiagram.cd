@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DoorEventsLogger.Helpers.DoorEventsLogHelper">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAQAAAAAAAAYAAAAAAAAAAAAABCAAAgACAA=</HashCode>
+      <FileName>Helpers\DoorEventsLogHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoorEventsLogger.Helpers.DoorEventsGenerator">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAoAAAAAA=</HashCode>
+      <FileName>Helpers\DoorEventsGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoorEventsLogger.Helpers.DoorHelper">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Helpers\DoorHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoorEventsLogger.Helpers.EventHelper">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\EventHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoorEventsLogger.Helpers.TenantHelper">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Helpers\TenantHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoorEventsLogger.Helpers.LogHelper">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\LogHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoorEventsLogger.Handler.DBHandler">
+    <Position X="5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAACgA=</HashCode>
+      <FileName>Handler\DBHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoorEventsLogger.Program">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAABAAAAAAAQAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoorEventsLogger.DoorEventsLog">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAgAAAAAgAAAAIAAYAAAAQAAI=</HashCode>
+      <FileName>DoorEventsLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoorEventsLogger.Settings">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

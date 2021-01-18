@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\VS\\repos\\EFDemo\\EFDemo\\EFDemo.csproj": {}
+    "D:\\Dev\\Codic\\Net20 - Objektorienterad arkitektur\\Github\\Net20\\2020v50\\Onsdagens Demo\\EFDemo\\EFDemo\\EFDemo.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\VS\\repos\\EFDemo\\EFDemo\\EFDemo.csproj": {
+    "D:\\Dev\\Codic\\Net20 - Objektorienterad arkitektur\\Github\\Net20\\2020v50\\Onsdagens Demo\\EFDemo\\EFDemo\\EFDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\VS\\repos\\EFDemo\\EFDemo\\EFDemo.csproj",
+        "projectUniqueName": "D:\\Dev\\Codic\\Net20 - Objektorienterad arkitektur\\Github\\Net20\\2020v50\\Onsdagens Demo\\EFDemo\\EFDemo\\EFDemo.csproj",
         "projectName": "EFDemo",
-        "projectPath": "D:\\Dev\\VS\\repos\\EFDemo\\EFDemo\\EFDemo.csproj",
-        "packagesPath": "C:\\Users\\medin\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\VS\\repos\\EFDemo\\EFDemo\\obj\\",
+        "projectPath": "D:\\Dev\\Codic\\Net20 - Objektorienterad arkitektur\\Github\\Net20\\2020v50\\Onsdagens Demo\\EFDemo\\EFDemo\\EFDemo.csproj",
+        "packagesPath": "C:\\Users\\marcu\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\Codic\\Net20 - Objektorienterad arkitektur\\Github\\Net20\\2020v50\\Onsdagens Demo\\EFDemo\\EFDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\medin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marcu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

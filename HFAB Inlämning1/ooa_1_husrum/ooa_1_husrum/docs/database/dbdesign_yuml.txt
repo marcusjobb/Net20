@@ -1,0 +1,22 @@
+﻿// database design
+// ------------------
+[Tenants|Id;Name;Apartment]
+
+[Tenants]-[Keys]
+
+[Keys|Tag;Owner;Activate:DateTime;Expire:DateTime]
+[Keys]-[Access]
+
+[Doors|Id;Location;Description]
+
+[Access|Tag;DoorId]
+[Access]-[Doors]
+
+[Events|Id;Description]
+
+[Events]-[Log]
+
+[Log|Tag;DoorId;Date;Time;EventId]
+
+[Log]-[Keys]
+[Log]-[Doors]

@@ -1008,19 +1008,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\medin\\.nuget\\packages\\": {}
+    "C:\\Users\\marcu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dev\\Codic\\Net20 - Objektorienterad arkitektur\\Kodexempel\\Net20\\2020v50\\Fredag\\Sagan_Linq\\SaganLinq.csproj",
+      "projectUniqueName": "D:\\Dev\\Codic\\Net20 - Objektorienterad arkitektur\\Github\\Net20\\2020v50\\Fredag\\Sagan_Linq\\SaganLinq.csproj",
       "projectName": "SaganLinq",
-      "projectPath": "D:\\Dev\\Codic\\Net20 - Objektorienterad arkitektur\\Kodexempel\\Net20\\2020v50\\Fredag\\Sagan_Linq\\SaganLinq.csproj",
-      "packagesPath": "C:\\Users\\medin\\.nuget\\packages\\",
-      "outputPath": "D:\\Dev\\Codic\\Net20 - Objektorienterad arkitektur\\Kodexempel\\Net20\\2020v50\\Fredag\\Sagan_Linq\\obj\\",
+      "projectPath": "D:\\Dev\\Codic\\Net20 - Objektorienterad arkitektur\\Github\\Net20\\2020v50\\Fredag\\Sagan_Linq\\SaganLinq.csproj",
+      "packagesPath": "C:\\Users\\marcu\\.nuget\\packages\\",
+      "outputPath": "D:\\Dev\\Codic\\Net20 - Objektorienterad arkitektur\\Github\\Net20\\2020v50\\Fredag\\Sagan_Linq\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\medin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marcu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

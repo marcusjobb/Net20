@@ -107,11 +107,11 @@
 FindEntriesByLocation,0301
 FindEntriesByTag,0101A
 MaxEntries,9
-FindEntriesByDoor,CYKEL
+FindEntriesByDoor,TVÄTT
 FindEntriesByTenant,Liam Jönsson
-FindEntriesByDoor,CYKEL
+FindEntriesByDoor,TVÄTT
 FindEntriesByDoor,LGH0301
-ListTenantsAt,CYKEL
+ListTenantsAt,TVÄTT
 FindEntriesByTenant,Adam Andersen
 FindEntriesByTag,0201D
 FindEntriesByDoor,LGH0301

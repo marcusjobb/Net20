@@ -10,6 +10,7 @@
         /// FindEntriesByDoor.
         /// </summary>
         /// <param name="door">Namnet på en dörr<see cref="string"/>.</param>
+        /// <param name="maxEntries">todo: describe maxEntries parameter on FindEntriesByDoor</param>
         /// <returns>En DataTable<see cref="DataTable"/> med sökresultat.</returns>
         internal static DataTable FindEntriesByDoor(string door, int maxEntries)
         {

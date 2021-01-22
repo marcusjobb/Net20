@@ -82,6 +82,6 @@ ListTenantsAt,0301
 MaxEntries,22
 FindEntriesByTag,0301B
 FindEntriesByLocation,0102
-FindEntriesByLocation,CYKEL
+FindEntriesByLocation,TVÄTT
 FindEntriesByTag,0202A
 FindEntriesByTag,0302B

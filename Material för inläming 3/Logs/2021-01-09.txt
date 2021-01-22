@@ -112,12 +112,12 @@ FindEntriesByTenant,Elsa Ahlström
 MaxEntries,5
 FindEntriesByEvent,DÖUT
 FindEntriesByTag,0101A
-FindEntriesByDoor,CYKEL
+FindEntriesByDoor,TVÄTT
 FindEntriesByEvent,DÖIN
 ListTenantsAt,TVÄTT
 FindEntriesByDoor,LGH0302
 FindEntriesByTenant,Wilma Johansson
-FindEntriesByLocation,CYKEL
+FindEntriesByLocation,TVÄTT
 FindEntriesByDoor,LGH0201
 FindEntriesByTenant,VAKT
 FindEntriesByEvent,FDUT

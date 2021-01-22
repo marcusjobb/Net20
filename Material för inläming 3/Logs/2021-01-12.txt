@@ -43,7 +43,7 @@
 2021-01-12 14:25,DÖIN,LGH0202,0202B,Ebba Adolfsson
 2021-01-12 14:26,DÖIN,UT,0202B,Ebba Adolfsson
 2021-01-12 14:29,DÖIN,LGH0201,0201C,Alexander Erlander
-2021-01-12 14:30,DÖUT,CYKEL,0201C,Alexander Erlander
+2021-01-12 14:30,DÖUT,TVÄTT,0201C,Alexander Erlander
 2021-01-12 14:31,DÖIN,DÖIN,0201C,Alexander Erlander
 2021-01-12 14:32,DÖIN,UT,0201C,Alexander Erlander
 2021-01-12 14:53,DÖIN,LGH0302,0302C,Kattis Backman
@@ -71,9 +71,9 @@
 2021-01-12 18:39,DÖIN,LGH0201,0201D,Astrid Erlander
 2021-01-12 18:40,DÖUT,LGH0201,0201D,Astrid Erlander
 2021-01-12 19:17,DÖUT,UT,0201C,Alexander Erlander
-2021-01-12 19:18,DÖUT,CYKEL,0201C,Alexander Erlander
+2021-01-12 19:18,DÖUT,TVÄTT,0201C,Alexander Erlander
 2021-01-12 19:19,DÖIN,LGH0101,0101A,Liam Jönsson
-2021-01-12 19:19,DÖIN,CYKEL,0201C,Alexander Erlander
+2021-01-12 19:19,DÖIN,TVÄTT,0201C,Alexander Erlander
 2021-01-12 19:20,DÖIN,UT,0101A,Liam Jönsson
 2021-01-12 19:20,DÖUT,TVÄTT,0201C,Alexander Erlander
 2021-01-12 19:21,DÖUT,UT,0302C,Kattis Backman
@@ -112,7 +112,7 @@ ListTenantsAt,0202
 FindEntriesByTag,0201B
 ListTenantsAt,0302
 FindEntriesByTag,0301B
-FindEntriesByDoor,CYKEL
+FindEntriesByDoor,TVÄTT
 FindEntriesByTag,0201D
 FindEntriesByTenant,Wilma Johansson
 FindEntriesByLocation,TVÄTT

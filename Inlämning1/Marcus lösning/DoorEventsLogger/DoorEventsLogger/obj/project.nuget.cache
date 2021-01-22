@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "sEbb+d/yC+20QiEda94JX6bPu7rhM0y7qzhP8B6av3GK3BZ0QA0e9m40wvRNE+qk6fZvnj4zGl4/n504gPU6hw==",
+  "success": true,
+  "projectFilePath": "D:\\Dev\\Codic\\Net20 - Objektorienterad arkitektur\\Github\\Net20\\Inlämning1\\Marcus lösning\\DoorEventsLogger\\DoorEventsLogger\\DoorEventsLogger.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marcu\\.nuget\\packages\\entityframework\\6.3.0\\entityframework.6.3.0.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\microsoft.win32.registry\\4.6.0\\microsoft.win32.registry.4.6.0.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\microsoft.win32.systemevents\\4.6.0\\microsoft.win32.systemevents.4.6.0.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.6.0\\runtime.native.system.data.sqlclient.sni.4.6.0.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.113.1\\stub.system.data.sqlite.core.netstandard.1.0.113.1.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\system.codedom\\4.6.0\\system.codedom.4.6.0.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\system.componentmodel.annotations\\4.6.0\\system.componentmodel.annotations.4.6.0.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\system.configuration.configurationmanager\\4.6.0\\system.configuration.configurationmanager.4.6.0.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\system.data.sqlclient\\4.7.0\\system.data.sqlclient.4.7.0.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\system.data.sqlite\\1.0.113.6\\system.data.sqlite.1.0.113.6.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\system.data.sqlite.core\\1.0.113.6\\system.data.sqlite.core.1.0.113.6.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\system.data.sqlite.ef6\\1.0.113\\system.data.sqlite.ef6.1.0.113.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\system.drawing.common\\4.6.0\\system.drawing.common.4.6.0.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\system.security.accesscontrol\\4.6.0\\system.security.accesscontrol.4.6.0.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.6.0\\system.security.cryptography.protecteddata.4.6.0.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\system.security.permissions\\4.6.0\\system.security.permissions.4.6.0.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\system.security.principal.windows\\4.6.0\\system.security.principal.windows.4.6.0.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\system.windows.extensions\\4.6.0\\system.windows.extensions.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

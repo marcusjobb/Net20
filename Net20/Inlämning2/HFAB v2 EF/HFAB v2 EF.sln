@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HFAB v2 EF", "HFAB v2 EF.csproj", "{E7D2DD87-41FC-431C-8118-4D0E180533FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{018E990F-78B2-44E3-AB9A-F49E4011A699}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7D2DD87-41FC-431C-8118-4D0E180533FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7D2DD87-41FC-431C-8118-4D0E180533FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7D2DD87-41FC-431C-8118-4D0E180533FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D2DD87-41FC-431C-8118-4D0E180533FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0030F138-ACA9-4B8E-934F-80179D47106B}
+	EndGlobalSection
+EndGlobal

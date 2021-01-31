@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.entityframeworkcore.SQlite" Version="5.0.1" />
+    <PackageReference Include="microsoft.entityframeworkcore.SQLserver" Version="5.0.1" />
+    <PackageReference Include="microsoft.entityframeworkcore.tools" Version="5.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Mysql.data.entityframeworkcore" Version="8.0.22" />
+  </ItemGroup>
+
+</Project>

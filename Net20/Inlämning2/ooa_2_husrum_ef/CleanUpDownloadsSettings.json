@@ -1,0 +1,93 @@
+{
+  "DateFormat": "yyyy-MM-dd",
+  "KnownSuffixes": [
+    "zip",
+    "rar",
+    "7z",
+    "sql",
+    "csv",
+    "xml",
+    "doc",
+    "docx",
+    "xls",
+    "xlsx",
+    "ppt",
+    "pptx",
+    "pdf",
+    "exe",
+    "msi",
+    "json",
+    "jpg",
+    "jpeg",
+    "png",
+    "gif",
+    "webp",
+    "txt",
+    "cs",
+    "js",
+    "cpp",
+    "vb",
+    "res",
+    "htm",
+    "html"
+  ],
+  "FileGroups": {
+    "Archives": [
+      "zip",
+      "rar",
+      "7z"
+    ],
+    "Database": [
+      "sql",
+      "csv",
+      "xml"
+    ],
+    "Documents": [
+      "doc",
+      "docx",
+      "xls",
+      "xlsx",
+      "ppt",
+      "pptx",
+      "pdf"
+    ],
+    "Install": [
+      "exe",
+      "msi"
+    ],
+    "Json-files": [
+      "json"
+    ],
+    "Pictures": [
+      "jpg",
+      "jpeg",
+      "png",
+      "gif",
+      "webp"
+    ],
+    "Textfiles": [
+      "txt"
+    ],
+    "Visual Studio files": [
+      "cs",
+      "js",
+      "cpp",
+      "vb",
+      "res"
+    ],
+    "Webbdocuments": [
+      "htm",
+      "html"
+    ]
+  },
+  "MoveOnlyKnownSuffixes": true,
+  "MoveOnlyKnownGroups": true,
+  "Rules": [
+    4,
+    1
+  ],
+  "RulesFallback": [
+    3,
+    1
+  ]
+}

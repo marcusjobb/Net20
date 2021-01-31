@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# IDE0063: Use simple 'using' statement
+dotnet_diagnostic.IDE0063.severity = none
+
+# RCS1018: Add accessibility modifiers (or vice versa).
+dotnet_diagnostic.RCS1018.severity = silent

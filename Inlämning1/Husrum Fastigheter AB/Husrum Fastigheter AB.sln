@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Husrum Fastigheter AB", "Husrum Fastigheter AB\Husrum Fastigheter AB.csproj", "{439A648A-4BB4-4376-9CCB-99BBECF7BB7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{439A648A-4BB4-4376-9CCB-99BBECF7BB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439A648A-4BB4-4376-9CCB-99BBECF7BB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439A648A-4BB4-4376-9CCB-99BBECF7BB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439A648A-4BB4-4376-9CCB-99BBECF7BB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66B912B2-6527-4AC0-9FB6-A0DB1D095253}
+	EndGlobalSection
+EndGlobal

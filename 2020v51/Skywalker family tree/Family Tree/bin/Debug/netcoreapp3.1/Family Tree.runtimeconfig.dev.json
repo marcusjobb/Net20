@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\medin\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\medin\\.nuget\\packages"
-    ]
-  }
-}

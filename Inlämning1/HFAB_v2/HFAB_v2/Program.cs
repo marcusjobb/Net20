@@ -6,9 +6,9 @@ using System.Collections.Generic;
 
 namespace HFAB_v2
 {
-    public class Program
+    class Program
     {
-        private static void Main(string[] args)
+        static void Main(string[] args)
         {
             var events = new DoorEventsLog();
 
@@ -33,21 +33,19 @@ namespace HFAB_v2
             OutputTenants(tenants);
         }
 
-        public static void OutputData(string title, DataRowCollection byCode)
+        private static void OutputData(string title, DataRowCollection byCode)
         {
             Console.WriteLine(title);
             foreach (DataRow r in byCode)
             {
-                Console.WriteLine($"{r["Date"],-15} {r["Door"],-8} {r["Event"],-5} {r["Tag"],-7} {r["Tenant"],-18} | {DoText(r)}");
+                Console.WriteLine($"{r["Date"], -15} {r["Door"],-8} {r["Event"],-5} {r["Tag"],-7} {r["Tenant"],-18} | {DoText(r)}");
             }
         }
-
         private static void OutputTenants(DataRowCollection tenants)
         {
             Console.WriteLine("Tenants");
             foreach (DataRow r in tenants) { Console.WriteLine($"{r["Location"]} {r["Tag"]} {r["Tenant"]}"); }
         }
-
         private static string DoText(DataRow r)
         {
             var ev = r["Event"].ToString();
@@ -67,11 +65,11 @@ namespace HFAB_v2
 
             return r["Tenant"] + " " + $"{what} dörr till {kindOfDoor} {where}";
         }
-
-        public static void CreateDatabaseOnStartup()
+        private static void CreateDatabaseOnStartup()
         {
             //Sets how many LogEntry rows will be created from TestData
             int numberOfLogEntries = 500;
+
 
             //Creates a database if it does not exists
             if (File.Exists(@".\HFAB.db"))
@@ -91,6 +89,7 @@ namespace HFAB_v2
                         Console.WriteLine("Invalid input, please type 'y' for yes or 'n' for no. Try again, human.\n\n");
                         inputCheck = false;
                     }
+
                 } while (inputCheck == false);
 
                 if (createDatabase == "y")
@@ -98,6 +97,7 @@ namespace HFAB_v2
                     Console.WriteLine("Creating database...");
                     CreateDatabase.CreateMainDatabase();
                     InsertStaticDataToDB.InsertIntoTables();
+
 
                     for (int i = 0; i < numberOfLogEntries; i++)
                     {
@@ -110,7 +110,7 @@ namespace HFAB_v2
                 Console.WriteLine("Creating database...");
                 CreateDatabase.CreateMainDatabase();
                 InsertStaticDataToDB.InsertIntoTables();
-
+                
                 for (int i = 0; i < numberOfLogEntries; i++)
                 {
                     TestData.GenerateTestData();

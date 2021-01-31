@@ -6,7 +6,7 @@ using System.Data;
 
 namespace HFAB_v2
 {
-    public class DoorEventsLog
+    class DoorEventsLog
     {
         //Sets the LIMIT in SQL-output to a maximum number
         public const int maxEntries = 20;
@@ -29,26 +29,25 @@ namespace HFAB_v2
         //Returns DataTable showing all entries by tenant in LogEntry
         public DataTable FindEntriesByTenant(string tenant)
         {
-            string sql = @"SELECT LogEntry.Date, LogEntry.Door, LogEntry.Tag, LogEntry.Event,
+            string sql = @"SELECT LogEntry.Date, LogEntry.Door, LogEntry.Tag, LogEntry.Event, 
                             Tenants.Location, Tenants.Tenant
                             FROM LogEntry
                             JOIN Tenants ON LogEntry.Tag=Tenants.Tag
                             WHERE Tenants.Tenant LIKE @Tenant
-                            ORDER BY LogEntry.Date DESC
+                            ORDER BY LogEntry.Date DESC 
                             LIMIT " + maxEntries + "";
 
             DataTable data = DatabaseCommunication.GetDataTable(sql, "@Tenant", "%" + tenant + "%");
             return data;
         }
-
         //Returns DataTable showing all entries by tag in LogEntry
         public DataTable FindEntriesByTag(string tag)
         {
-            string sql = @"SELECT LogEntry.Date, LogEntry.Door, LogEntry.Tag, LogEntry.Event,
+            string sql = @"SELECT LogEntry.Date, LogEntry.Door, LogEntry.Tag, LogEntry.Event, 
                             Tenants.Location, Tenants.Tenant
                             FROM LogEntry
                             JOIN Tenants ON LogEntry.Tag=Tenants.Tag
-                            WHERE Tenants.Tag LIKE @Tag
+                            WHERE Tenants.Tag LIKE @Tag 
                             ORDER BY LogEntry.Date DESC
                             LIMIT " + maxEntries + "";
             DataTable data = DatabaseCommunication.GetDataTable(sql, "@Tag", "%" + tag + "%");
@@ -58,7 +57,7 @@ namespace HFAB_v2
         //Returns DataTable showing all entries by location in LogEntry
         public DataTable FindEntriesByLocation(string location)
         {
-            string sql = @"SELECT LogEntry.Date, LogEntry.Door, LogEntry.Tag, LogEntry.Event,
+            string sql = @"SELECT LogEntry.Date, LogEntry.Door, LogEntry.Tag, LogEntry.Event, 
                             Tenants.Location, Tenants.Tenant
                             FROM LogEntry
                             JOIN Tenants ON LogEntry.Tag=Tenants.Tag
@@ -72,7 +71,7 @@ namespace HFAB_v2
         //Returns DataTable showing all entries by door in LogEntry
         public DataTable FindEntriesByDoor(string door)
         {
-            string sql = @"SELECT LogEntry.Date, LogEntry.Door, LogEntry.Tag, LogEntry.Event,
+            string sql = @"SELECT LogEntry.Date, LogEntry.Door, LogEntry.Tag, LogEntry.Event, 
                             Tenants.Location, Tenants.Tenant
                             FROM LogEntry
                             JOIN Tenants ON LogEntry.Tag=Tenants.Tag
@@ -86,7 +85,7 @@ namespace HFAB_v2
         //Returns DataTable showing all entries by event in LogEntry
         public DataTable FindEntriesByEvent(string eventInput)
         {
-            string sql = @"SELECT LogEntry.Date, LogEntry.Door, LogEntry.Tag, LogEntry.Event,
+            string sql = @"SELECT LogEntry.Date, LogEntry.Door, LogEntry.Tag, LogEntry.Event, 
                             Tenants.Location, Tenants.Tenant
                             FROM LogEntry
                             JOIN Tenants ON LogEntry.Tag=Tenants.Tag

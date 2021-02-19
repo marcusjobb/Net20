@@ -4,7 +4,7 @@
     using System.Linq;
     using System.Text.Json;
 
-    static class Filemanager
+    internal static class Filemanager
     {
         // Hämta lista på kattfiler
         public static string[] GetCatList() => Directory.EnumerateFiles(@".\", "*.Cat.*").ToArray();
@@ -43,7 +43,7 @@
         public static void SaveCat(Cat cat)
         {
             var jsonString = JsonSerializer.Serialize(cat);
-            var fileName = GetFilename(cat.N, nameof(Cat));
+            var fileName = GetFilename(cat.Name, nameof(Cat));
             File.WriteAllText(fileName, jsonString);
         }
 
@@ -51,9 +51,8 @@
         public static void SaveDog(Dog dog)
         {
             var jsonString = JsonSerializer.Serialize(dog);
-            var fileName = GetFilename(dog.N, nameof(Dog));
+            var fileName = GetFilename(dog.Name, nameof(Dog));
             File.WriteAllText(fileName, jsonString);
         }
-
     }
 }

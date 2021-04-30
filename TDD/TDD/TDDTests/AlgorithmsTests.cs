@@ -74,9 +74,9 @@ namespace TDD.Tests
         [TestMethod()]
         public void Alg3Test_ShortString()
         {
-            Assert.ThrowsException<System.ArgumentOutOfRangeException>(() => 
-                { 
-                    Algorithms.Alg3(string.Empty); 
+            Assert.ThrowsException<System.ArgumentOutOfRangeException>(() =>
+                {
+                    Algorithms.Alg3(string.Empty);
                 });
 
             //try
@@ -129,6 +129,7 @@ namespace TDD.Tests
         }
 
         [TestMethod()]
+        [DataRow("12Fizz4BuzzFizz78FizzBuzz", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)]
         [DataRow("01Fizz", 1, 2, 3)]
         [DataRow("0Fizz23", 7, 9, 2, 4)]
         [DataRow("FizzBuzz", 0)] // WTF
@@ -136,7 +137,7 @@ namespace TDD.Tests
         [DataRow("Buzz", 5)]
         [DataRow("Fizz", 6)]
         [DataRow("Buzz", 10)]
-        [DataRow("FizzBuzzFizzBuzz", 3,5,6,10)]
+        [DataRow("FizzBuzzFizzBuzz", 3, 5, 6, 10)]
         [DataRow("Fizz", -3)]
         [DataRow("Buzz", -5)]
         [DataRow("Fizz", -6)]
